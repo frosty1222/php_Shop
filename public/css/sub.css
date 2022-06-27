@@ -1,0 +1,109 @@
+.maintell{
+    width:100%;
+    height:auto;
+}
+.maintell .text-center{
+    width:1340px;
+    text-align:center;
+}
+.text-center .table{
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.avatars{
+    width: 1340px;
+    height:auto;
+}
+.avatars .ava-form{
+    width:800px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+
+}
+.avatars .ava-form2{
+    width:800px;
+    height:750px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+
+}
+.avatars .ava-form5{
+    width:800px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+
+}
+.avatars .ava-form3{
+    width:950px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    border:1px solid #ccc;
+
+}
+.avatars .ava-forms{
+    width:800px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+.avatars .ava-regis{
+    width:800px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+.ava-regis form{
+    width:800px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSmv_LPloZPwCLyqUj9oHQGmaBSucOGgbEA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+.ava-regis form legend{
+    border-bottom: none;
+}
+.ava-regis form .form-group input{
+    width:300px;
+    height:40px;
+    border: none;
+    box-shadow:1px 1px 1px 3px whitesmoke;
+    text-transform:none;
+}
+.ava-regis form .form-group span{
+    width:100px;
+    position:absolute;
+    margin-left:20px;
+    height:40px;
+    text-transform:capitalize;
+}
+.avatars .ava-cate{
+    width:600px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+.avatars .ava-cate form .form-group input{
+    width:400px;
+}
+.avatars .ava-cate form legend{
+    width:400px;
+}
+.avatars .ava-images{
+    width:600px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}

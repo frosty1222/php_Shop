@@ -1,0 +1,307 @@
+.main_detail{
+    width: 1340px;
+    background-color:wheat;
+    margin: 0;
+    padding: 0;
+}
+.main_detail .center{
+    width: 100%;
+    margin: 0;
+    display:flex;
+}
+.main_detail .center .text{
+    width:670px;
+}
+.center .text .image-top img{
+   width:100%;
+}
+.image-bottom ul li img{
+     transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    /* margin-top:10px; */
+    width:100px;
+    height:100px;
+}
+.image-bottom ul li img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.image-bottom ul {
+width:auto;
+height:100px;
+background-color:#fff;
+overflow-x:auto;
+}
+.image-bottom ul li {
+    list-style: none;
+    width:100px;
+    height:100px;
+    display: inline;
+}
+.image-bottom {
+    width:670px;
+    height:auto;
+}
+.center .text-right{
+    width:57%;
+    border:1px solid green;
+    height:auto;
+}
+.clear{
+    clear:both;
+}
+.text-right .infor{
+    width:100%;
+}
+.text-right .infor h3{
+    text-align:center;
+}
+.text-right .infor .main-pay{
+    width:683px;
+    border:3px solid #ccc;
+    height: auto;
+    margin:auto;
+}
+.text-right .infor .main-pay form{
+    
+}
+.main-pay form .sub-miner{
+    width:300px;
+    display: inline-flex;
+    float:left;
+}
+.main-pay form .miner-image{
+    width:100%;
+    height: auto;
+}
+.miner-image ul{
+    width:100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+}
+.miner-image ul span{
+    width:15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.miner-image ul li{
+    list-style:none;
+    display: inline;
+}
+.miner-image ul li span input{
+   position:absolute;
+   margin-left:-45px;
+   margin-top:20px;
+}
+.text-right .infor .main-pay .form-color {
+    width: 150px;
+    background-color: #fff;
+    height:auto;
+    text-align:left;
+    border:3px solid black;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.form-color li{
+    display:inline-flex;
+}
+.form-color span{
+    width:100%;
+    text-align:center;
+    color:blue;
+}
+.text-right .infor .main-pay .form-color select {
+    width:100%;
+}
+.text-right .infor .main-pay .form-color li{
+    width:auto;
+    list-style: none;
+    margin-left:20px;
+}
+.text-right .infor .main-pay .form-pro{
+   width:auto;
+   display:block;
+   text-align:center;
+   background-color: #fff;
+   border:3px solid #333;
+   border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+   float:right;
+}
+
+.form-pro input{
+    width:140px;
+}
+.text-right .infor .main-pay .form-pro h4{
+    display:block;
+}
+.main-pay form .button button{
+  width:200px;
+  height:50px;
+  background-color:green;
+  color:white;
+  text-transform: uppercase;
+  border:none;
+  box-shadow:1px 1px 3px 1px whitesmoke;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+.main-pay form .button button:hover{
+    background-color:greenyellow;
+    color:orange;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.main-pay form .button #return{
+    height:50px;
+    background-color:green;
+    color:white;
+    padding:15px 0px;
+    border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+  font-weight:700;
+  text-decoration:none;
+}
+.main-pay form .button #return:hover{
+    background-color:lightgreen;
+}
+.main-pay form .button{
+    width:100%;
+    text-align:center;
+}
+.products .product_assistance{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    font-style: italic;
+    font-family: initial;
+}
+.products .product_assistance h2{
+    border: 1px solid black;
+    width: 270px;
+    margin-left: 200px;
+    text-decoration-line: none;
+}
+.products .product_assistance h2:hover{
+    background-color:orange;
+    color:#fff;
+}
+.products .product_assistance h2 a{
+    text-decoration-line: none;
+}
+.center .comment p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: initial;
+    color: aqua;
+    margin-left: 120px;
+    background-color:orange;
+    width:90px;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+.center .comment {
+    background-color: #fff;
+    width: 300px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-top: 100px;
+    height:auto;
+}
+.center .comments {
+    background-color: #fff;
+    width: 300px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+/* .infor .comment:hover{
+    background-color: orange;
+} */
+.center .comment button{
+    margin-left:120px;
+}
+.comment #form form{
+    display:block;
+}
+.comment #form {
+    display:block;
+    width:300px;
+    height:auto;
+}
+.Show_comment{
+    width: 300px;
+    background-color: #fff;
+    text-align:justify;
+}
+
+.infor .appear-comment legend{
+    text-align:center;
+    width:100%;
+    height:50px;
+    background-color:green;
+    color:orange;
+    text-transform:uppercase;
+    font-weight: 500;
+    font-style: italic;
+    line-height:2.3;
+}
+.infor .appear-comment{
+    width:600px;
+    background-color:white;
+    height:auto;
+    margin-left: auto;
+    margin-right:auto;
+}
+.appear-comment .user_comment_line{
+    float:left;
+    width:100%;
+    background-color:white;
+}
+.user_comment_line .sub-line{
+   text-align:left;
+    width:600px;
+    height:auto;
+    background-color:#ccc;
+}
+.sub-line #admin{
+    text-align:center;
+}
+.user_comment_line span img{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}

@@ -1,0 +1,45 @@
+.main{
+  background:#fff;
+  width:100%;
+}
+.main .jumb{
+  width: 500px;
+  height: 150px;
+  color:black;
+  background-color:aqua;
+  text-align:center;
+  font-style:lighter;
+  font-weight: bold;
+  margin-left: 50px;
+  
+}
+.payment-box{
+  align-items: center;
+  background-color:aqua;
+  width:500px;
+  margin-left: 50px;
+  color:black;
+}
+.payment-box:hover{
+  background: #fff;
+  cursor: pointer;
+}
+.payment-box input{
+  width: 250px;
+  margin-left: 100px;
+}
+.payment-box .form-group2 textarea{
+   width: 250px;
+   margin-left: 70px;
+}
+.list_item{
+  width:70%;
+  margin-left: 200px;
+  background-image:url('https://img.freepik.com/free-vector/gradient-smooth-blue-lines-background_23-2148964962.jpg?size=626&ext=jpg');
+  color:black;
+}
+.main .item{
+  float: right;
+  width: 56%;
+  margin-top: -140px;
+}
